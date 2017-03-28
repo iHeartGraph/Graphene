@@ -1,16 +1,17 @@
 ----
-Software requirement
+Specification
 -----
-gcc 4.4.7 or 4.8.5
+Graphene is a project that outperforms in-memory graph analytical systems with merely out of memory storage. To achieve that goal, you need to do three things: **partition a graph**, **format and mount disks as well as distribute graph data to those disks**, **run graphene**. These three steps also constitute the entire Graphene project structure as below.
 
 
 ----
 Project structure
 -----
-- converter: convert a text tuple list into **row-column balanced 2d partition** format of the graph.
-- disk_management: manage disks.
-- Graphene contains **lib and test** two source code.
-    
+- **converter**: convert a text tuple list into *row-column balanced 2d partition* format of the graph.
+- **disk_management**: format and mount disks to the server and further distribute the partitioned dataset into these disks.
+- **Graphene** contains *lib and test* two source code.
+Please find the detailed specification in the sub folders.
+
 
 **Should you have any questions about this project, please contact us by iheartgraph@gmail.com.**
 
