@@ -1,8 +1,7 @@
 ----
 Specification
 -----
-Graphene is a project that outperforms in-memory graph analytical systems with merely out of memory storage. To achieve that goal, you need to do three things: **partition a graph**, **format and mount disks as well as distribute graph data to those disks**, **run graphene**. These three steps also constitute the entire Graphene project structure as below.
-
+To run graphene, you need to do three things: **partition a graph**, **format and mount disks and distribute graph data on disks**, **run graphene**. These three steps also constitute the entire Graphene project structure as below.
 
 ----
 Project structure
